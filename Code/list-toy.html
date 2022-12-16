@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOY station List</title>
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/list.css" />
+</head>
+<body>
+    <form class="form-container">
+        <div class="form-header">
+            <div class="form-title">
+                <a href="#" id="header-link-1" class="form-title-link-disable">Senior/Junior List</a>
+                <a href="./list-medical.html" id="header-link-2" class="form-title-link">Medical List</a>
+            </div>
+            <button type="button" class="form-button" onclick="doctorPrint()">Doctor Print</button>
+        </div>
+        
+        <div class="form-content">
+            <table class="table-list">
+                <thead>
+                    <tr>
+                        <td style="width: 70px; text-align: center;"></td>
+                        <td>Name</td>
+                        <td>Age</td>
+                        <td>Special Care?</td>
+                        <td>Sex</td>
+                        <td>Medical History</td>
+                        <td>Note</td>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </form>
+</body>
+<script src="./js/list-toy.js"></script>
+</html>

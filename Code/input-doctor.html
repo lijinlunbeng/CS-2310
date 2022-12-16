@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Input</title>
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/input.css" />
+</head>
+<body>
+    <form class="form-container">
+        <div class="form-title">Doctor Information Input</div>
+        <div class="form-content">
+            <div class="form-line">
+                <div class="form-line-name">Doctor Name</div>
+                <input id="doctorName" class="form-line-input" type="text" />
+            </div>
+            <div class="form-line">
+                <div class="form-line-name">Station Number</div>
+                <input id="stationNumber" class="form-line-input" type="text" />
+            </div>
+            <div class="form-line">
+                <div class="form-line-name">Call911</div>
+                <select id="call911" class="form-line-input" type="text">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+            <div class="form-line">
+                <div class="form-line-name">Accident</div>
+                <select id="accident" class="form-line-input" type="text">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+            <div class="form-line">
+                <div class="form-line-name">Createion Time</div>
+                <input id="craeteTime" class="form-line-input" type="date" />
+            </div>
+        </div>
+        <div class="form-button">
+            <button type="reset" class="form-button-reset">Reset</button>
+            <button type="button" class="form-button-submit" onclick="doctorInput()">Submit</button>
+        </div>
+    </form>
+</body>
+<script src="./js/input.js"></script>
+</html>

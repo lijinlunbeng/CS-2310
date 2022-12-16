@@ -1,0 +1,16 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*
+{
+    box-sizing: border-box;
+}
+button
+{
+    cursor: pointer;
+}

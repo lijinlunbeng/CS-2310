@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toy Print</title>
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/print.css" />
+</head>
+<body>
+    <form class="form-container">
+        <div class="form-title">TOY Information Print</div>
+        <div class="form-content">
+            <div class="form-line">
+                <div class="form-line-name">Name:</div>
+                <div id="toyName" class="form-line-value"></div>
+            </div>
+            <div class="form-line">
+                <div class="form-line-name">Age:</div>
+                <div id="toyAge" class="form-line-value"></div>
+            </div>
+            <div class="form-line">
+                <div class="form-line-name">Special Care:</div>
+                <div id="specialCare" class="form-line-value"></div>
+            </div>
+            <div class="form-line">
+                <div class="form-line-name">Sex:</div>
+                <div id="toySex" class="form-line-value"></div>
+            </div>
+            <div class="form-line">
+                <div class="form-line-name">Medical History:</div>
+                <div id="medicalHistory" class="form-line-value"></div>
+            </div>
+        </div>
+        <div class="form-button">
+            <button type="button" class="form-button-print" onclick="doctorPrint()">Print</button>
+        </div>
+    </form>
+</body>
+<script>
+    isDoctor = false;
+    isToy = true;
+</script>
+<script src="./js/print.js"></script>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOY Input</title>
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/input.css" />
+</head>
+<body>
+    <form class="form-container">
+        <div class="form-title">TOY Information Input</div>
+        <div class="form-content">
+            <div class="form-line">
+                <div class="form-line-name">Name</div>
+                <input id="toyName" class="form-line-input" type="text" />
+            </div>
+            <div class="form-line">
+                <div class="form-line-name">Age</div>
+                <input id="toyAge" class="form-line-input" type="number" />
+            </div>
+            <div class="form-line">
+                <div class="form-line-name">Special Care</div>
+                <select id="specialCare" class="form-line-input" type="text">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+            <div class="form-line">
+                <div class="form-line-name">Sex</div>
+                <select id="toySex" class="form-line-input" type="text">
+                    <option value="Male">Male</option>
+                    <option value="FeMale">FeMale</option>
+                </select>
+            </div>
+            <div class="form-line">
+                <div class="form-line-name">Medical History</div>
+                <input id="medicalHistory" class="form-line-input" />
+            </div>
+        </div>
+        <div class="form-button">
+            <button type="reset" class="form-button-reset">Reset</button>
+            <button type="button" class="form-button-submit" onclick="toyInput()">Submit</button>
+        </div>
+    </form>
+</body>
+<script src="./js/input.js"></script>
+</html>
